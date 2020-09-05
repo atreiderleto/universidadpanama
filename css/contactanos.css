@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "471";
+  font-display: auto;
+  src: url('../../fonts/471.ttf');
+}
+
+@font-face{
+    font-family: "472";
+    font-display: auto;
+    src: url('../../fonts/472.ttf');
+}
+
+@font-face{
+    font-family: "473";
+    font-display: auto;
+    src: url('../../fonts/473.ttf');
+}
+
+@font-face{
+    font-family: "474";
+    font-display: auto;
+    src: url('../../fonts/474.ttf');
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.pages__container{
+	max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+/*     padding-left: 15px;
+    padding-right: 15px; */
+}
+.box_form{
+	width: 390px; 
+	height:430px;
+	display: flex;
+	background-color: black;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.contactanos__btn_enviar{
+height: 50px;
+width: 236px;
+outline: none;
+border: none;
+color: #CEA600;
+border: 2px solid #CEA600;
+background-color: black;
+}
+.contactanos__btn_enviar:focus{
+height: 50px;
+width: 236px;
+outline: none;
+border: none;
+color: #CEA600;
+border: 2px solid #CEA600;
+background-color: black;
+}
+
+.contactanos__input{
+	background-color: #0D3273;
+	color: white;
+	border: 1px solid black;
+}
+.contactanos__input::-webkit-input-placeholder { color: white; } 
+
+.contactanos__input:-moz-placeholder { /* Firefox 18- */ color: white; } 
+
+.contactanos__input::-moz-placeholder { /* Firefox 19+ */ color: white; } 
+
+.contactanos__input:-ms-input-placeholder { color: white; }
+
+.contactanos__input:focus{
+  	background-color: #0D3273;
+    border-color:  #0D3273;
+    outline: 0;
+    color: white;
+}
+.contactanos__textarea{
+	min-height: 150px;
+	max-height: 150px;
+}
+
+.contactanos__line{
+	border: 1px solid #0D3273;
+	margin-right: 25px;
+	margin-left: 25px;
+}
