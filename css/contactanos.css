@@ -36,6 +36,14 @@
 }
 
 
+.pages__container h4{
+	
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 
 
 .box_form{
@@ -87,7 +95,8 @@ background-color: black;
 }
 .contactanos__textarea{
 	min-height: 150px;
-	max-height: 150px;
+    max-height: 150px;
+    resize: none;
 }
 
 .contactanos__line{
