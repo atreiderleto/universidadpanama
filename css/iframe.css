@@ -12,7 +12,7 @@
 
 .iframe{
 	width: 100%;
-	min-width: 900px;
+	
 	height: 900px;
 	border: 0px black solid;
 	margin-bottom: 10px;
@@ -20,12 +20,13 @@
 	
 }
 
-
-
-
 .subframe{
 	width: 80%;
 }
+
+
+
+/*RESPOSIVE IFRAME PAGE*/
 
 
 @media  (max-width: 395px){

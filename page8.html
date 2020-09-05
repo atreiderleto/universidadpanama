@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2-dist/css/style.css">
+	<title>Universidad</title>
+</head>
+<body>
+<!-- navbar -->
+	<nav class="navbar navbar-expand-lg nav__bg ">
+		<div class="universidad__container universidad__paddingnone">
+			<div class="d-flex flex-nowrap justify-content-center">
+				<div class="my-auto col-sm-1 col-2 col-md-1 px-0 d-flex justify-content-center">
+					<button class="bg-transparent navbar__button_burguer mx-auto" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+	          		aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation" id="btn_hamburger">
+						<div class="navbar__toggler-icon-box">
+				            <span class="navbar__toggler-icon-line"></span>
+				            <span class="navbar__toggler-icon-line"></span>
+				            <span class="navbar__toggler-icon-line"></span>
+				            <span class="navbar__toggler-icon-line"></span>
+	         	 		</div>
+					</button>
+				</div>
+				<div class="mx-auto my-auto col-sm-8 col-md-8 col-7 px-0 d-flex justify-content-center">
+					<h1 class="nav__title text-center pl-lg-1 my-auto d-flex justify-content-center my-auto">
+						<img src="imgs/LOGO-universidad.png" class="navbar__logotitle mr-1"> <div class="d-flex flex-column">
+							<span class="font__471 ml-1 my-auto navbar__title">UNIVERSIDAD DIURNA</span><span class="font__471 navbar__subtitle">PAULATINA AMERICANA</span>
+						</div></h1>
+					<div id="root">
+					</div>
+				</div>
+				<div class="my-auto col-3 col-sm-3  col-md-2 px-0 d-flex justify-content-md-center  flex-column">
+					<a href="https://www.google.com/?hl=es" target="_blank" class="navbar__link">
+					<div class="ml-auto d-flex flex-wrap justify-content-center ">
+						<img src="./imgs/animation.gif.gif" class="navbar__logoimg" alt="">
+					<p class="text-white ml-sm-1 navbar__link my-auto text-center font__472">Aula Virtual</p>
+					</div></a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="lista__box lista__slider" id="slider">
+		<a href="#!" class="list-group-item list-group-item-action lista__link" onclick="cambiarIcono(1)">Inicio<span id="main__option__1" class="alignright">+</span></a>
+			<div class="list-group lista__group2 lista__acordion">
+				<a href="Iframe.html" class="list-group-item list-group-item-action lista__link2 font__473">Resolucion Meduca</a>
+				<a href="#!" class="list-group-item list-group-item-action lista__link2 font__473">Sub-menu</a>
+				<a href="#!" class="list-group-item list-group-item-action lista__link2 font__473">Sub-menu</a>
+			</div>
+		<a href="#!" class="list-group-item list-group-item-action lista__link" onclick="cambiarIcono(2)">Menu<span id="main__option__2" class="alignright">+</span></a>
+			<div class="list-group lista__group2 lista__acordion">
+				<a href="#!" class="list-group-item list-group-item-action lista__link2 font__473">Sub-menu</a>
+				<a href="#!" class="list-group-item list-group-item-action lista__link2 font__473">Sub-menu</a>
+				<a href="#!" class="list-group-item list-group-item-action lista__link2 font__473">Sub-menu</a>
+			</div>
+
+		<a href="#!" class="list-group-item list-group-item-action lista__link" onclick="cambiarIcono(3)">Menu<span id="main__option__3" class="alignright">+</span></a>
+			<div class="list-group lista__group2 lista__acordion">
+				<a href="#!" class="list-group-item list-group-item-action lista__link2 font__473">Sub-menu</a>
+				<a href="#!" class="list-group-item list-group-item-action lista__link2 font__473">Sub-menu</a>
+			</div>
+
+		<a href="contactanos.html" class="list-group-item list-group-item-action lista__link">Contactanos<span id="main__option__4" class="alignright">-</span></a>
+	</div>
+<!-- /navbar -->
+
+
+<!---CONTENIDO PAGINA 8-->
+
+
+
+<!--FIN CONTENIDO PAGINA 8-->
+<!-- /fin carrusel -->
+<footer class="footer__bg">
+	<div class="universidad__container">
+		<hr class="bg-white">
+		<div class="d-flex flex-md-wrap flex-wrap-reverse">
+			<div class="col__footer footer__contactanos d-flex pl-md-3 pr-md-0">
+				<div class="my-auto mx-auto">
+					<h6 class="text-center mb-3 font__474" style="color: #CEA600 !important;">Contactenos</h6>
+					<ul class="list-unstyled footer__boxul mb-0">
+					<li class="text-white font__474">Universidad Bolivaria de Caracas</li>
+					<li class="text-white font__474">Venezuela Caracas</li>
+					<li class="text-white font__474">Sector 7 calle 23</li>
+					<li class="text-white font__474">+58(0) 20 7882 5555</li>
+				</div>
+			</ul>
+			</div>
+			<div class="col__footer footer__map pr-lg-3 pr-md-2 pl-lg-3 pl-md-2">
+				<div class="footer__mapa" id="footer__mapa"></div>
+			</div>
+			<div class="col__footer footer__redsocial d-flex  pl-md-2 pr-md-2">
+				<div class="my-auto mx-auto">
+					<h6 class="mb-3 font__474 text-center" style="color: #CEA600 !important;">Redes Sociales</h6>
+					<div class="d-flex flex-nowrap justify-content-center">
+						<a href="https://www.whatsapp.com" target="_blank"><img src="imgs/social-3.png" class="footer__social" alt=""></a>
+						<a href="https://www.instagram.com" target="_blank"><img src="imgs/social-2.png" class="footer__social" alt=""></a>	
+						<a href="https://www.facebook.com" target="_blank"><img src="imgs/social-1.png" class="footer__social" alt=""></a>		
+						<a href="tel:+34000000000" target="_blank"><img src="imgs/social-0.png" class="footer__social" alt=""></a>	
+					</div>
+					<div class="d-flex justify-content-md-center mt-md-2">
+						<div class="d-flex flex-column col-6 footer__box1 px-2">
+							<img src="imgs/bandera-panama.png" class="mx-auto" alt="" width="60px" height="60px;">
+							<h6 class="text-center text-white font__474 font__size1 mb-0">República de Panamá</h6>
+							<p class="mb-0 text-center text-white font__474 font__size1_1">-- Gobierno Nacional --</p>
+						</div>
+						<div class="d-flex flex-column col-6 footer__border footer__box2 px-2">
+							<h6 class="my-auto font__474 text-white font__size2">Ministerio de Educación</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="bg-white">
+		<div class="col-12 text-center footer__boxtext">
+			<p class="mb-0 text-white font__474 footer__text">2017 <a href="https://www.google.com" target="_blank" class="font__474 text-danger line__red">-</a> 2020</p>
+		</div>
+	</div>
+</footer>
+<script src="bootstrap-4.5.2-dist/js/jquery.min.js" type="text/javascript"></script>
+<script src="bootstrap-4.5.2-dist/js/app.js" type="text/javascript"></script>
+<script src="bootstrap-4.5.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD_fyTeeUKaaFwp20NXLy4Xy2rRjF1AK0&callback=initMap&libraries=&v=weekly" defer></script>
+<script>
+	"use strict";
+
+	let map;
+
+	function initMap() {
+	  map = new google.maps.Map(document.getElementById("footer__mapa"), {
+		center: {
+		  lat: -34.397,
+		  lng: 150.644
+		},
+		zoom: 8
+	  });
+	}
+  </script>
+<script src="lib/main.js" type="text/javascript"></script>
+</body>
+</html>
