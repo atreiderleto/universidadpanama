@@ -34,8 +34,13 @@
 /*     padding-left: 15px;
     padding-right: 15px; */
 }
+
+
+
+
 .box_form{
-	width: 390px; 
+    width: 90%; 
+    max-width: 550px ;
 	height:430px;
 	display: flex;
 	background-color: black;
@@ -90,3 +95,37 @@ background-color: black;
 	margin-right: 25px;
 	margin-left: 25px;
 }
+
+
+/* 
+RESPOSIVE PAGINA DE CONTACTOS
+*/
+
+
+@media (max-width: 411px){
+
+
+    .box-form{
+
+        width: 350px;
+    }
+
+
+	.pages__container {
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+        margin: 0 auto;
+	}
+
+}
+
+@media (max-width: 321){
+
+    .box_form{
+        width: 95%;
+    }
+
+}
+
