@@ -50,3 +50,16 @@
 
 }
 
+@media (max-width: 767px){
+
+    .my_auto{
+      display: none;
+    }
+
+    .navbar__link{
+      display: none;
+    }
+  
+   
+  }
+ 

@@ -19,7 +19,7 @@
   @font-face{
       font-family: "474";
       font-display: auto;
-      src: url('../../fonts/474.ttf');
+      src: url('../fonts/TIMES-NEW-ROMAN.ttf');
   }
 
 
@@ -30,6 +30,7 @@
     display: flex;
     flex-flow: column wrap;
     width: 95%;
+    max-width: 900px;
     height: auto;
     margin: 0 auto;
     margin-top: 30px;
@@ -85,7 +86,7 @@
   .requisitos-1 h3{
     width: 100%;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 40px;
 }
 
@@ -94,3 +95,19 @@
     margin-left: 40px;
 }
 
+
+
+
+@media (max-width: 767px){
+
+    .my_auto{
+      display: none;
+    }
+
+    .navbar__link{
+      display: none;
+    }
+  
+   
+  }
+ 

@@ -19,7 +19,7 @@
   @font-face{
       font-family: "474";
       font-display: auto;
-      src: url('../../fonts/474.ttf');
+      src: url('../fonts/TIMES-NEW-ROMAN.ttf');
   }
 
 
@@ -31,6 +31,7 @@
     display: flex;
     flex-flow: column wrap;
     width: 95%;
+    max-width: 900px;
     height: auto;
     margin: 0 auto;
     margin-top: 30px;
@@ -83,6 +84,8 @@
   .plan-title img{
       width: 60px;
       height: 60px;
+      border: 2px solid #0270A7;
+      border-radius: 999px 999px 999px 999px;
 
   }
 
@@ -109,7 +112,29 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 767px){
 
+  .my_auto{
+    display: none;
+  }
+
+  .navbar__link{
+    display: none;
+  }
+
+ 
+}
+
+@media (max-width: 507px){
+
+  .plan-title img{
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+}
 
   
 

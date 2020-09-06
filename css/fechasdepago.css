@@ -19,15 +19,16 @@
   @font-face{
       font-family: "474";
       font-display: auto;
-      src: url('../../fonts/474.ttf');
+      src: url('../fonts/TIMES-NEW-ROMAN.ttf');
   }
 
 
   #content{
       
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     width: 95%;
+    max-width: 900px;
     height: auto;
     margin: 0 auto;
     margin-top: 30px;
@@ -66,13 +67,28 @@
 
   .content{
       display: flex;
-      flex-flow: column wrap;
-      width: 100%;
+      flex-flow: row wrap;
+      width: 95%;
       font-size: 20px;
+    
   }
 
   .content p {
       width: 90%;
-      margin-left: 70px;
       text-align: justify;
+      margin-left: 20px;
   }
+
+  @media (max-width: 767px){
+
+    .my_auto{
+      display: none;
+    }
+
+    .navbar__link{
+      display: none;
+    }
+  
+   
+  }
+ 

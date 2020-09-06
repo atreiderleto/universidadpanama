@@ -19,7 +19,7 @@
 @font-face{
     font-family: "474";
     font-display: auto;
-    src: url('../../fonts/474.ttf');
+    src: url('../fonts/TIMES-NEW-ROMAN.ttf');
 }
 
 *{
@@ -138,3 +138,16 @@ RESPOSIVE PAGINA DE CONTACTOS
 
 }
 
+@media (max-width: 767px){
+
+    .my_auto{
+      display: none;
+    }
+
+    .navbar__link{
+      display: none;
+    }
+  
+   
+  }
+ 
