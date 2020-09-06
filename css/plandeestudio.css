@@ -56,6 +56,7 @@
     color: #0D3273;
     font-weight: bold;
     font-family: '474';
+    font-size: 27px;
 }
 
 
@@ -84,7 +85,7 @@
 
   .parrafo{
     font-family: '474';
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .plan-title img{
@@ -103,9 +104,8 @@
 
   .planes-estudio{
       width: 90%;
-      height: auto;
       font-family: '474';
-      margin-bottom: 80px;
+      
   }
 
   .planes-estudio h2{
