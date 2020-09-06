@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "471";
+    font-display: auto;
+    src: url('../../fonts/471.ttf');
+  }
+  
+  @font-face{
+      font-family: "472";
+      font-display: auto;
+      src: url('../../fonts/472.ttf');
+  }
+  
+  @font-face{
+      font-family: "473";
+      font-display: auto;
+      src: url('../../fonts/473.ttf');
+  }
+  
+  @font-face{
+      font-family: "474";
+      font-display: auto;
+      src: url('../../fonts/474.ttf');
+  }
+
+
+  /*ESTILSO DE PLAN DEW ESTUIDO*/
+
+
+  #content{
+
+    display: flex;
+    flex-flow: column wrap;
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px 0 rgba(131, 118, 118, 0.8);
+    
+  }
+
+  #plan{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#plan h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+  .logo{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   width: 100%;
+   margin-bottom: 50px;
+  }
+
+  .logo img{
+
+    border-radius: 999px 999px 999px 999px;
+
+  }
+
+  .plan-title{
+      
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .plan-title img{
+      width: 60px;
+      height: 60px;
+
+  }
+
+  .plan-title h3{
+      margin-left: 30px;
+  }
+
+  .planes-estudio{
+      width: 90%;
+      height: auto;
+      font-family: '474';
+      margin-bottom: 80px;
+  }
+
+  .planes-estudio h2{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+
+  .planes-estudio h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+  
+
