@@ -52,6 +52,8 @@
     width: 100%;
     text-align: center;
     margin-bottom: 60px;
+    color: #0D3273;
+    font-weight: bold;
 }
 
 
@@ -86,6 +88,8 @@
 
   .plan-title h3{
       margin-left: 30px;
+      color: #0D3273;
+      font-weight: bold;
   }
 
   .planes-estudio{

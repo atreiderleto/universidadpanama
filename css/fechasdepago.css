@@ -23,8 +23,6 @@
   }
 
 
-  /* ESTILOS DE CALENDARIO ESCOLAR*/
-
   #content{
       
     display: flex;
@@ -76,5 +74,5 @@
   .content p {
       width: 90%;
       margin-left: 70px;
-      margin-bottom: 100px;
+      text-align: justify;
   }
