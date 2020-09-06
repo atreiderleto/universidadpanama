@@ -30,12 +30,14 @@
     max-width: 900px;
     justify-content: center;
     margin: 0 auto;
+    color: red;
 }
 
 #section h3{
     margin-top: 30px;
     font-weight: bold;
     font-family: "474";
+    
 }
 
 
@@ -64,6 +66,7 @@
     height: auto;
     font-weight: bold;
     margin-bottom: 30px;
+    
 }
 
 
