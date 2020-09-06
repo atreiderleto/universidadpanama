@@ -19,7 +19,7 @@
   @font-face{
       font-family: "474";
       font-display: auto;
-      src: url('../fonts/TIMES-NEW-ROMAN.ttf');
+      src: url('../fonts/474.ttf');
   }
 
 
@@ -77,6 +77,8 @@
       width: 90%;
       text-align: justify;
       margin-left: 20px;
+      font-family: '474';
+      font-size: 18px;
   }
 
   @media (max-width: 767px){

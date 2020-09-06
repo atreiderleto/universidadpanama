@@ -19,9 +19,9 @@
   @font-face{
       font-family: "474";
       font-display: auto;
-      src: url('../fonts/TIMES-NEW-ROMAN.ttf');
+      src: url('../fonts/474.ttf');;
   }
-
+src: url('../fonts/474.ttf');
 
   /* ESTILOS DE CALENDARIO ESCOLAR*/
 
@@ -77,7 +77,7 @@
   }
 
   .content h3{
-    
+    font-family: '474';
     width: 90%;
 
   }
@@ -88,6 +88,8 @@
       width: 90%;
       margin-bottom: 30px;
       margin-top: 20px;
+      font-family: '474';
+      font-size: 20px;
   }
 
 

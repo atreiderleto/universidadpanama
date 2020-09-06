@@ -22,6 +22,12 @@
       src: url('../fonts/474.ttf');
   }
 
+  @font-face{
+    font-family: "time";
+    font-display: auto;
+    src: url('../fonts/TIMES-NEW-ROMAN.ttf');
+}
+
   /*ESTILOS GENERALES*/
 
   *{
@@ -41,6 +47,7 @@
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: '474';
     box-shadow: 1px 1px 5px 0 rgba(131, 118, 118, 0.8);
   }
 
