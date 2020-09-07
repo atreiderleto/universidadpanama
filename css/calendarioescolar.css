@@ -49,7 +49,7 @@
 
   #title h3{
       font-size: 40px;
-
+      
   }
 
   #img-logo{
@@ -81,6 +81,7 @@
     font-family: '474';
     width: 90%;
     font-size: 27px;
+    margin-top: 60px;
 
   }
   .content h4{
@@ -95,7 +96,7 @@
       display: flex;
       flex-flow:row wrap;
       width: 90%;
-      margin-bottom: 10px;
+      margin-bottom: 40px;
       margin-top: 50px;
       font-family: '474';
       font-size: 18px;
