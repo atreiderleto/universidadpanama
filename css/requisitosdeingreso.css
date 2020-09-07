@@ -58,7 +58,7 @@
 
   #title h3{
       width: 100%;
-      font-size: 40px;
+      font-size: 35px;
       text-align: center;
   }
 
@@ -68,7 +68,7 @@
       justify-content: center;
       width: 100%;
       height: auto;
-      margin-bottom: 80px;
+      margin-bottom: 90px;
   }
 
   #logo img{
@@ -86,12 +86,13 @@
   .requisitos-1 h3{
     width: 100%;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 27px;
     margin-bottom: 40px;
 }
 
 .requisitos-1 p{
     width: 100%;
+    font-size: 18px;
     margin-left: 40px;
 }
 
