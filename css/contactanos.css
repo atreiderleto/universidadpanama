@@ -31,18 +31,30 @@
 	max-width: 900px;
     width: 100%;
     margin: 0px auto;
-/*     padding-left: 15px;
-    padding-right: 15px; */
+    text-align: center;
 }
 
 
 .pages__container h4{
 	
     width: 100%;
+    font-size: 35px;
     margin-top: 20px;
+    font-family: "474";
     margin-bottom: 20px;
 
 }
+
+
+.pages__container p{
+	
+    width: 100%;
+    font-size: 18px;
+    font-family: "474";
+   
+    
+}
+
 
 
 
@@ -55,6 +67,8 @@
 	padding-left: 15px;
 	padding-right: 15px;
 }
+
+
 .contactanos__btn_enviar{
 height: 50px;
 width: 236px;
@@ -63,6 +77,8 @@ border: none;
 color: #CEA600;
 border: 2px solid #CEA600;
 background-color: black;
+font-family: "474";
+font-size: 18px;
 }
 .contactanos__btn_enviar:focus{
 height: 50px;
@@ -72,14 +88,17 @@ border: none;
 color: #CEA600;
 border: 2px solid #CEA600;
 background-color: black;
+font-family: "474";
 }
 
 .contactanos__input{
 	background-color: #0D3273;
-	color: white;
+    color: white;
+    font-family: "474";
+    font-size: 18px;
 	border: 1px solid black;
 }
-.contactanos__input::-webkit-input-placeholder { color: white; } 
+.contactanos__input::-webkit-input-placeholder { color: white; font-size: 18px; font-family: "474";} 
 
 .contactanos__input:-moz-placeholder { /* Firefox 18- */ color: white; } 
 
