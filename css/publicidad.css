@@ -26,10 +26,9 @@
 #section{
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
-    max-width: 900px;
+    width: 100%;
     justify-content: center;
-    margin: 0 auto;
+
     color: red;
 }
 
@@ -40,11 +39,10 @@
     
 }
 
-
 .slider{
     display: flex;
     flex-flow: column wrap;
-    width: 90%;
+    width: 100%;
     height: auto;
     align-content: center;
     margin-top: 60px;
@@ -85,6 +83,9 @@
     flex-flow: row wrap;
     width: 100%;
     height: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #0D3273;
 }
 
 .video-iframe{
