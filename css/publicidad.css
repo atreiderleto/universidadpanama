@@ -104,6 +104,17 @@
     border-radius: 10px 10px 10px 10px ;
 }
 
+@media (max-width: 1024px){
+
+    .video-iframe iframe{
+        width: 550px;
+        height: 550px;
+        margin-left: 0px;
+    }
+
+
+}
+
 @media (max-width: 767px){
 
     .my_auto{
@@ -118,7 +129,7 @@
     .video-iframe iframe{
         width: 500px;
         height: 500px;
-       
+        margin-left: 0px;
     }
     
    
@@ -157,4 +168,13 @@
     }
     
 
+}
+
+@media (max-width: 375px) {
+
+    .video-iframe{
+
+        height: 435px;
+
+    }
 }
