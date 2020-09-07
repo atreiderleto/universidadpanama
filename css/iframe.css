@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "471";
+    font-display: auto;
+    src: url('../../fonts/471.ttf');
+  }
+  
+  @font-face{
+      font-family: "472";
+      font-display: auto;
+      src: url('../../fonts/472.ttf');
+  }
+  
+  @font-face{
+      font-family: "473";
+      font-display: auto;
+      src: url('../../fonts/473.ttf');
+  }
+  
+  @font-face{
+      font-family: "474";
+      font-display: auto;
+      src: url('../fonts/474.ttf');
+  }
+
+
+
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -12,6 +39,7 @@
 	flex-flow: row wrap;
 	justify-content: center;
 	width: 100%;
+	
 	height: 600px;
 	border: 0px black solid;
 	margin-bottom: 60px;
@@ -19,8 +47,12 @@
 }
 
 .pdf-iframe{
-	
-	width: 90%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
+	max-width: 900px;
+	height: 600px;
 
 }
 
@@ -29,10 +61,11 @@
 	height: 50px;
 	text-align: center;
 	margin-top: 30px;
+	font-family: "474";
 }
 
 #title h3{
-	
+	font-family: "474";
 	color: red;
 	font-weight: bold;
 }
