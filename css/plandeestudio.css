@@ -22,9 +22,20 @@
       src: url('../fonts/474.ttf');
   }
 
+  @font-face{
+    font-family: "times";
+    font-display: auto;
+    src: url('../fonts/TIMES-NEW-ROMAN.ttf;');
+}
+
 
   /*ESTILSO DE PLAN DEW ESTUIDO*/
 
+
+  
+.font__475{
+  font-family: "times" !important;
+}
 
   #content{
 

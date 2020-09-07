@@ -22,10 +22,22 @@
     src: url('../fonts/474.ttf');;
 }
 
+@font-face{
+    font-family: "times";
+    font-display: auto;
+    src: url('../fonts/TIMES-NEW-ROMAN.ttf;');
+}
+
+
 *{
 	margin: 0px;
 	padding: 0px;
 }
+
+.font__475{
+    font-family: "times" !important;
+  }
+
 
 .pages__container{
 	max-width: 900px;

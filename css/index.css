@@ -37,6 +37,11 @@
 
 /*ESTILOS DEL CONTENIDO DE LA PAGINA INDEX.html*/
 
+
+.font__475{
+  font-family: "times" !important;
+}
+
   #content-index{
 
     display: flex;

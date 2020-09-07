@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "times";
+    font-display: auto;
+    src: url('../fonts/TIMES-NEW-ROMAN.ttf;');
+}
+
+
+.font__475{
+    font-family: "times" !important;
+  }
