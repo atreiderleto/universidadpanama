@@ -28,15 +28,14 @@
     flex-flow: row wrap;
     width: 100%;
     justify-content: center;
-
     color: red;
 }
 
 #section h3{
-    margin-top: 30px;
+    margin-top: 60px;
     font-weight: bold;
     font-family: "474";
-    
+    font-size: 27px;
 }
 
 .slider{
@@ -58,12 +57,14 @@
     margin-top: 40px;
 }
 
-#videos h3{
+#videos h4{
     width: 100%;
     text-align: center;
     height: auto;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 27px;
     
 }
 
